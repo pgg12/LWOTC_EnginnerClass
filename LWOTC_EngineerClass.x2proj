@@ -2,7 +2,7 @@
 <Project ToolsVersion="12.0" DefaultTargets="Default" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
     <Guid>97d65512-a1e6-4ec6-b7a5-ea1ca0a7d577</Guid>
-    <Name>My XCOM 2 Mod</Name>
+    <Name>LWOTC_EngineerClass</Name>
     <Description>Description of My XCOM 2 Mod.</Description>
     <SteamPublishID>0</SteamPublishID>
     <AssemblyName>LWOTC_EngineerClass</AssemblyName>
@@ -19,10 +19,24 @@
       <SubType>Content</SubType>
     </Content>
     <Content Include="ReadMe.txt" />
+    <Content Include="Src\LWOTC_EngineerClass\Classes\X2Ability_LWOTC_EngineerClass_TurretRelatedAbilities.uc">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Src\LWOTC_EngineerClass\Classes\X2Character_LWOTC_EngineerClass_Turrets.uc">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Src\LWOTC_EngineerClass\Classes\X2Effect_LWOTC_EngineerClass_SpawnTurret.uc">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Src\LWOTC_EngineerClass\Classes\X2Item_LWOTC_EngineerClass_Turrets.uc">
+      <SubType>Content</SubType>
+    </Content>
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Config" />
     <Folder Include="Src" />
+    <Folder Include="Src\LWOTC_EngineerClass" />
+    <Folder Include="Src\LWOTC_EngineerClass\Classes" />
   </ItemGroup>
   <Import Project="$(MSBuildLocalExtensionPath)\XCOM2.targets" />
 </Project>
