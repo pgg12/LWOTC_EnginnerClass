@@ -1,0 +1,38 @@
+[LWOTC_EngineerClass_DeployableTurret_CV X2CharacterTemplate]
+strCharacterName="Deployable Turret MK.I"
+
+[LWOTC_EngineerClass_DeployableTurret_MG X2CharacterTemplate]
+strCharacterName="Deployable Turret MK.II"
+
+[LWOTC_EngineerClass_DeployableTurret_BM X2CharacterTemplate]
+strCharacterName="Deployable Turret MK.III"
+
+[LWOTC_EngineerClass_DeployableTurret_Weapon_CV X2WeaponTemplate]
+FriendlyName="Conventional Turret"
+FriendlyNamePlural="Conventional Turrets"
+BriefSummary="A basic automated weapons platform."
+
+[LWOTC_EngineerClass_DeployableTurret_Weapon_MG X2WeaponTemplate]
+FriendlyName="Magnetic Turret"
+FriendlyNamePlural="Magnetic Turrets"
+BriefSummary="Advanced automated weapon platform, based on ADVENT's designs."
+
+[LWOTC_EngineerClass_DeployableTurret_Weapon_BM X2WeaponTemplate]
+FriendlyName="Beam Turret"
+FriendlyNamePlural="Beam Turrets"
+BriefSummary="Highly advanced automated weapons platform."
+
+[LWOTC_EngineerClass_Turret_CV X2WeaponTemplate]
+FriendlyName="Deployable Turret MK.I"
+FriendlyNamePlural="MK.I Deployable Turrets"
+BriefSummary="A miniaturized automated weapons platform that can be rapidly depployed in the field."
+
+[LWOTC_EngineerClass_Turret_MG X2WeaponTemplate]
+FriendlyName="Deployable Turret MK.II"
+FriendlyNamePlural="MK.II Deployable Turrets"
+BriefSummary="A miniaturized automated weapons platform that can be rapidly depployed in the field."
+
+[LWOTC_EngineerClass_Turret_BM X2WeaponTemplate]
+FriendlyName="Deployable Turret MK.III"
+FriendlyNamePlural="MK.III Deployable Turrets"
+BriefSummary="A miniaturized automated weapons platform that can be rapidly depployed in the field."

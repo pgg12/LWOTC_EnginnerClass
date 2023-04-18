@@ -40,13 +40,13 @@ function name GetUnitToSpawnName(const out EffectAppliedData ApplyEffectParamete
 	switch(X2WeaponTemplate(SourceItem.GetMyTemplate()).WeaponTech)
 	{
 		case 'conventional':
-			return 'XcomTurretM2';
+			return 'LWOTC_EngineerClass_DeployableTurret_CV';
 			break;
 		case 'magnetic':
-			return 'XComTurretM2';
+			return 'LWOTC_EngineerClass_DeployableTurret_MG';
 			break;
 		case 'beam':
-			return 'XComTurretM2';
+			return 'LWOTC_EngineerClass_DeployableTurret_BM';
 			break;
 		default:
 			`LOG("LWOTC_EngineerClass: weapon tech category not found");

@@ -18,6 +18,15 @@
     <Content Include="Config\XComGame.ini">
       <SubType>Content</SubType>
     </Content>
+    <Content Include="Config\XComGameData.ini">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Config\XComGameData_CharacterStats.ini">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Config\XComGameData_WeaponData.ini">
+      <SubType>Content</SubType>
+    </Content>
     <Content Include="ReadMe.txt" />
     <Content Include="Src\LWOTC_EngineerClass\Classes\X2Ability_LWOTC_EngineerClass_TurretRelatedAbilities.uc">
       <SubType>Content</SubType>
@@ -34,6 +43,7 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Config" />
+    <Folder Include="Localization" />
     <Folder Include="Src" />
     <Folder Include="Src\LWOTC_EngineerClass" />
     <Folder Include="Src\LWOTC_EngineerClass\Classes" />

@@ -11,7 +11,8 @@ static function array<X2DataTemplate> CreateTemplates()
 	return Templates;
 }
 
-// Basis for all the turrets, taken from the games default turret setup;
+// Basis for all the turrets, taken from the games default turret setup
+// For the moment all of these properties should be shared by all the turrets
 static function CreateDefaultTurretTemplate(out X2CharacterTemplate CharTemplate, Name TemplateName, bool bShort=false)
 {
 	`CREATE_X2CHARACTER_TEMPLATE(CharTemplate, TemplateName);
@@ -101,8 +102,8 @@ static function X2CharacterTemplate CreateTurret_CV()
 {
 	local X2CharacterTemplate Template;
 
-	CreateDefaultTurretTemplate(CharTemplate, 'LWOTC_EngineerClass_DeployableTurret_CV');
-	Template.DefaultLoadout = 'LWOTC_EngineerClass_DeployableTurret_CV_Default_Loadout';
+	CreateDefaultTurretTemplate(Template, 'LWOTC_EngineerClass_DeployableTurret_CV');
+	Template.DefaultLoadout = 'LWOTC_EngineerClass_DeployableTurret_Default_Loadout_CV';
 
 	return Template;
 }
@@ -111,8 +112,8 @@ static function X2CharacterTemplate CreateTurret_MG()
 {
 	local X2CharacterTemplate Template;
 
-	CreateDefaultTurretTemplate(CharTemplate, 'LWOTC_EngineerClass_DeployableTurret_MG');
-	Template.DefaultLoadout = 'LWOTC_EngineerClass_DeployableTurret_MG_Default_Loadout';
+	CreateDefaultTurretTemplate(Template, 'LWOTC_EngineerClass_DeployableTurret_MG');
+	Template.DefaultLoadout = 'LWOTC_EngineerClass_DeployableTurret_Default_Loadout_MG';
 
 	return Template;
 }
@@ -121,8 +122,8 @@ static function X2CharacterTemplate CreateTurret_BM()
 {
 	local X2CharacterTemplate Template;
 
-	CreateDefaultTurretTemplate(CharTemplate, 'LWOTC_EngineerClass_DeployableTurret_BM');
-	Template.DefaultLoadout = 'LWOTC_EngineerClass_DeployableTurret_BM_Default_Loadout';
+	CreateDefaultTurretTemplate(Template, 'LWOTC_EngineerClass_DeployableTurret_BM');
+	Template.DefaultLoadout = 'LWOTC_EngineerClass_DeployableTurret_Default_Loadout_BM';
 
 	return Template;
 }
